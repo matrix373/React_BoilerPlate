@@ -1,5 +1,4 @@
-// We can import assets and React functionality up here
-// Oh, and I'm a JavaScript comment. You'll see
+
 import {useState} from 'react';
 import './App.css';
 
@@ -56,20 +55,6 @@ function BeanTitle({bean}) {
 }
 
 
-
-function MagicButton() {
-  const [count, setCount] = useState(0);
-  function doMagic() {
-    setCount(count + 1);
-    alert('Are you not entertained?');
-  }
-
-  return (
-    <button onClick={doMagic}>
-      Magic {count} times
-    </button>
-  );
-}
 
 // This is the main component in the file
 // It's called below using the 'export default' keywords
